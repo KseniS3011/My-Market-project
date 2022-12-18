@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.60af9476.css",
+    "main.js": "/static/js/main.e0db89e8.js",
+    "static/js/787.b701888c.chunk.js": "/static/js/787.b701888c.chunk.js",
+    "static/media/Cart_w.svg": "/static/media/Cart_w.12fced254809309dd85b.svg",
+    "static/media/food-basket2.svg": "/static/media/food-basket2.c433ffec44e50601749a8828b809935e.svg",
+    "static/media/Icon.svg": "/static/media/Icon.acb605ecdcae6ec09ad03ebbcc443272.svg",
+    "static/media/Heart_fill.svg": "/static/media/Heart_fill.bc60a98849ebc0e41b61.svg",
+    "static/media/Star_g.svg": "/static/media/Star_g.8aff1ddb8471c7f81b02.svg",
+    "static/media/Star_y.svg": "/static/media/Star_y.b51678fa03a744142cae.svg",
+    "static/media/heart_1.svg": "/static/media/heart_1.b06d3dc510e4d078697b45c43c44ebff.svg",
+    "static/media/heart_2.svg": "/static/media/heart_2.024ce2b2fa798c2862fd.svg",
+    "static/media/heart_3.svg": "/static/media/heart_3.3557093868e0a9bf1573.svg",
+    "index.html": "/index.html",
+    "static/media/Маркер1.svg": "/static/media/Маркер1.2dc65ffa9bb0334cadba.svg",
+    "main.60af9476.css.map": "/static/css/main.60af9476.css.map",
+    "main.e0db89e8.js.map": "/static/js/main.e0db89e8.js.map",
+    "787.b701888c.chunk.js.map": "/static/js/787.b701888c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60af9476.css",
+    "static/js/main.e0db89e8.js"
+  ]
+}
