@@ -371,4 +371,11 @@
         font-size: 14px;
         line-height: 17px;
     }
+
+    .sidebar-info__like:hover::after {
+       
+        animation: none;
+    }
+
+    
 }

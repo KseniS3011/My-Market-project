@@ -28,7 +28,7 @@ function Footer(props) {
                         <div className="footer__link">
 
                             <div className="footer-link-up">
-                                <Link text={item.top.text} link={item.top.link} /><br />
+                                <a className="link-top"href="#Top">Наверх</a><br />
                             </div>
 
                         </div>

@@ -14,10 +14,6 @@ let footeritems = {
         text: 'partner@mymarket.com',
         link: 'mailto:partner@mymarket.com',
     },
-    top: {
-        text: 'Наверх',
-        link: '#Top',
-    },
 };
 
 function Page() {

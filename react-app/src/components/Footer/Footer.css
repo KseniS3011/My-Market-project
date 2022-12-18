@@ -27,6 +27,21 @@
     align-items: center;
 }
 
+.link-top {
+    display: inline;
+    color: #008CF0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-top:hover {
+    color: #F36223;
+}
+
+.link-top:active {
+    color: #A93A09;
+}
+
 @media (max-width: 1024px) {
 
     .footer-background {
@@ -34,11 +49,6 @@
         width: 1024px;
         margin: 60px 0 0;
     }
-
-    /* .footer-margin {
-        margin: 0 15px;
-        width: 100%;
-    } */
 
     .footer {
         margin: 0 auto;
