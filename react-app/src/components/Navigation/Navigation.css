@@ -1,0 +1,17 @@
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 8px;
+    gap: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 98px 0 0 0;
+}
+
+.navigation-item {
+    display: flex;
+    gap: 4px;
+   
+}

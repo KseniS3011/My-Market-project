@@ -1,0 +1,141 @@
+.review {
+    display: flex;
+    gap: 30px;
+}
+
+.review-photo__img {
+    width: 140px;
+    height: 140px;
+}
+
+.review-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.review-content__name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.review-content__stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-self: stretch;
+    flex-grow: 0;
+    gap: 2px;
+    height: 30px;
+}
+
+.star1::after {
+    display: inline-block;
+    content: '';
+    background-image: url(./Star_y.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+} 
+
+ .star2::after {
+    display: inline-block;
+    content: '';
+    background-image: url(./Star_g.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+} 
+
+.review-content__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 0;
+}
+
+.review-content__paragraph {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.reviews-body__separator {
+    padding:  0;
+    margin: 0;
+    border-bottom: 0;
+    border-top: 1px dashed #888888;;
+    border-left: 0;
+    border-right: 0;
+    box-sizing: border-box;
+}
+
+.last-paragraph {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1024px) {
+
+    .review-photo__img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .star1::after,
+    .star2::after {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .last-paragraph {
+        margin-bottom: 30px;
+    }
+
+    .review {
+        display: grid;
+        grid-gap: 15px;
+        position: relative;
+    }
+
+    .review-photo {
+        max-width: 60px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .review-photo__img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .review-content__name {
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 75px;
+    }
+
+    .review-content__stars {
+        height: 20px;
+    }
+
+    .star1::after,
+    .star2::after {
+        width: 20px;
+        height: 20px;
+    }
+
+    .reviews-body__separator {
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+}

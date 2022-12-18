@@ -1,0 +1,38 @@
+.product-characteristics {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-characteristics__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px;
+    list-style-image: url(Маркер1.svg);
+    padding-left: 20px;
+}
+
+.characteristic-item {
+    display: flex;
+    gap: 4px;
+    height: 100%;
+}
+
+.characteristics-name {
+    margin: 0px 0px 15px 0px;
+    padding: 0;
+}
+
+@media (max-width: 360px) {
+
+    .characteristics-name {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .product-characteristics__list {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

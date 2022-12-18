@@ -1,0 +1,23 @@
+.description-name {
+    margin: 0px 0px 15px 0px;
+    padding: 0;
+}
+
+
+@media (max-width: 360px) {
+
+    .description-name {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .product-description__text {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .last{
+        margin-bottom: 0;
+    }
+}

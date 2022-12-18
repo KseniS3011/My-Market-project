@@ -1,0 +1,35 @@
+.product-configuration {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-configuration__name {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.name {
+    display: flex;
+    margin: 0px 0px 15px 0px;
+    padding: 0;
+}
+
+.product-configuration__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    height: 39px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 360px) {
+
+    .name {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

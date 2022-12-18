@@ -1,0 +1,55 @@
+.product-comparison {
+    width: 100%;
+}
+
+.comparison-table {
+    border: 1px solid #888888;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-head {
+    padding: 10px;
+    border: 1px solid #888888;
+    white-space: nowrap;
+}
+
+.table-body {
+    padding: 10px;
+    border-right: 1px solid #888888;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    white-space: nowrap;
+}
+
+.table_selection {
+    cursor: pointer;
+}
+
+.table_selection:hover {
+    background-color: #F2F2F2;
+}
+
+@media (max-width: 1024px) {
+
+    .product-comparison {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1499px) {
+
+    .product-comparison {
+        display: none;
+    }
+}
+
+@media (max-width: 360px) {
+
+    .comparison-name {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

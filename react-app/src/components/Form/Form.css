@@ -1,0 +1,238 @@
+.form {
+    margin: 0px 0px 0px 170px;
+    padding: 0;
+}
+
+.form__name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px 0px 15px 0px;
+    padding: 0;
+}
+
+.form__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input {
+    display: flex;
+}
+
+.input-container1 {
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+    box-sizing: border-box;
+}
+
+.input-container2 {
+    width: 5%;
+    box-sizing: border-box;
+}
+
+.input-container3 {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    box-sizing: border-box;
+}
+
+.input-mistake-name {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-mistake-grade {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input-mistake-review {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.color {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: white;
+    background: #DA4A0C;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.input1 {
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 1px solid #888888;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input2 {
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 1px solid #888888;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input1:hover,
+.input2:hover,
+.textarea:hover,
+.input1:focus-visible,
+.input2:focus-visible,
+.textarea:focus-visible {
+    border-radius: 0;
+    border: 1px solid black;
+    box-sizing: border-box;
+    outline: none;
+    background-color: transparent;
+}
+
+.textarea {
+    width: 100%;
+    height: 190px;
+    resize: none;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #888888;
+}
+
+.mistake {
+    border-radius: 0;
+    border: 1px solid #DA4A0C;
+    box-sizing: border-box;
+    outline: none;
+    background-color: transparent;
+}
+
+.textarea::placeholder,
+.input1::placeholder,
+.input2::placeholder {
+    color: #888888;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: sans-serif;
+}
+
+.form__button {
+    align-self: flex-start;
+}
+
+.form__button_button {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #F36223;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 0;
+    align-self: stretch;
+    width: 100%;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.form__button_button:hover {
+    background-color: #DA4A0C;
+}
+
+.form__button_button:active {
+    background-color: #A93A09;
+}
+
+@media (max-width: 1024px) {
+
+    .form {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1499px) {
+
+}
+
+@media (max-width: 360px) {
+
+    .form {
+        margin-top: 10px;
+    }
+
+    .form__input {
+        flex-direction: column;
+    }
+
+    .input-container1,
+    .input-container2,
+    .input-container3 {
+        width: 100%;
+    }
+
+    .input1,
+    .input2,
+    .textarea {
+        padding: 10px 15px;
+    }
+
+    .textarea::placeholder,
+    .input1::placeholder,
+    .input2::placeholder {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .input-mistake-name,
+    .input-mistake-grade,
+    .input-mistake-review {
+        height: 15px;
+    }
+
+    .color {
+        height: 15px;
+        font-weight: 400;
+        font-size: 11px;
+    }
+
+    .form__button_button {
+        align-self: flex-start;
+        padding: 10px 15px;
+    }
+}
+
+

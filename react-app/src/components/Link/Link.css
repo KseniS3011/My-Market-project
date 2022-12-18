@@ -1,0 +1,22 @@
+.a {
+    display: inline;
+    color: #008CF0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.a:hover {
+    color: #F36223;
+}
+
+.a:active {
+    color: #A93A09;
+}
+
+@media (max-width: 360px) {
+
+    .a {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

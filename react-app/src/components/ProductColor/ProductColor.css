@@ -1,0 +1,43 @@
+.product-color {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px;
+}
+
+.product-color__name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.color-name {
+    margin: 0px 0px 15px 0px;
+    padding: 0;
+}
+
+.product-color__images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+@media (max-width: 360px) {
+
+    .color-name {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .product-color__images {
+        flex-wrap: wrap;
+    }
+
+}
+
