@@ -1,7 +1,6 @@
 .product-configuration__button {
     padding: 10px 20px;
-    border: 2px solid transparent;
-    outline: 1px solid #888888;
+    border: 1px solid #888888;
     background-color: transparent;
     border-radius: 4px;
     box-sizing: border-box;
@@ -9,24 +8,29 @@
     font-size: 16px;
     line-height: 19px;
     cursor: pointer;
+    color: black;
+    outline: none;
 }
 
 .selected {
-    border: 2px solid transparent;
-    outline: 2px solid #F36223;
+    border: 1px solid #F36223;
+    box-sizing: border-box;
+    outline: none;
 }
 
 .product-configuration__button:hover,
 .product-configuration__button_selected:hover {
     background-color: #F2F2F2;
+    box-sizing: border-box;
+    outline: none;
 }
 
 .product-configuration__button:active,
 .product-configuration__button_selected:active {
-    border: 2px solid transparent;
-    outline: 2px solid #A93A09;
+    border: 1px solid #A93A09;
     border-radius: 4px;
     box-sizing: border-box;
+    outline: none;
 }
 
 @media (max-width: 360px) {
@@ -37,5 +41,9 @@
         padding: 8px 18px;
     }
 
-}
+    .product-configuration__button:hover,
+    .product-configuration__button_selected:hover {
+        background-color: transparent;
+    }
 
+}

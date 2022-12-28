@@ -9,11 +9,11 @@ function ColorButton(props) {
         <div>
             
                     
-            <div className={`product-color__img ${isActive ? 'selected' : ''}`}>
+            <button className={`product-color__img ${isActive ? 'selected' : ''}`}>
 
                 <img className="img-button" src={item.src} alt="Color of product" />
 
-            </div>
+            </button>
            
          
 

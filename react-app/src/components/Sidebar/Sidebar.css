@@ -358,6 +358,10 @@
         padding-bottom: 17.5px;
     }
 
+    .sidebar__button:hover {
+        background-color: #F36223;
+    }
+
     .sidebar__button::before {
         width: 19.7px;
         height: 18.8px;

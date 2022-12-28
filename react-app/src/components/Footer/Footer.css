@@ -13,12 +13,17 @@
     background-color: transparent;
     width: 1400px;
     margin: 0 auto;
-
+    font-size: 14px;
+    line-height: 17px;
 }
 
 .footer-item {
     display: flex;
     gap: 4px;
+    font-family: "Inter", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
 }
 
 .footer-link-up {

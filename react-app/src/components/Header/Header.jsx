@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useSelector} from "react-redux";
+import { useSelector } from "react-redux";
 import './Header.css';
 import logo from './Icon.svg';
 import imageHeart from './heart_1.svg';
@@ -17,13 +17,15 @@ function Header(props) {
                 <div className="heading">
                     <div className="heading__name">
                         <div className="heading__logo">
-                            <Link to = "/">
-                            <img className="heading__logo-img" src={logo} alt="Logo" />
+                            <Link to="/">
+                                <img className="heading__logo-img" src={logo} alt="Logo" />
                             </Link>
                         </div>
-                        <div className="heading__text">
-                            <span className="heading__text_color">Мой</span>Маркет
-                        </div>
+                        <strong>
+                            <div className="heading__text">
+                                <span className="heading__text_color">Мой</span>Маркет
+                            </div>
+                        </strong>
                     </div>
                     <div className="heading-container">
                         <div className={`cart-number-1 ${cart.products ? '' : 'hidden'}`}>1</div>
