@@ -1,6 +1,9 @@
 .product-characteristics {
     display: flex;
     flex-direction: column;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
 }
 
 .product-characteristics__list {
@@ -10,12 +13,20 @@
     margin: 0px;
     list-style-image: url(Маркер1.svg);
     padding-left: 20px;
+    font-family: "Inter", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
 }
 
 .characteristic-item {
     display: flex;
     gap: 4px;
     height: 100%;
+    font-family: "Inter", "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
 }
 
 .characteristics-name {
