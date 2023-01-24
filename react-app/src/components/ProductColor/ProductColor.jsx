@@ -28,7 +28,7 @@ function ProductColor(props) {
 
                                     <ColorButton
                                         item={item}
-                                        isActive={item.color === colorActive}
+                                        // isActive={item.color === colorActive}
                                     />
 
                                 </div>
